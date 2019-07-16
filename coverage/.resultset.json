@@ -1,0 +1,42 @@
+{
+  "Cucumber Features": {
+    "coverage": {
+      "/Users/Max/workspace/CraftAcademy/bootcamp/challengePlaydate/app/mailers/application_mailer.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/Max/workspace/CraftAcademy/bootcamp/challengePlaydate/app/models/application_record.rb": [
+        0,
+        0,
+        0
+      ],
+      "/Users/Max/workspace/CraftAcademy/bootcamp/challengePlaydate/app/jobs/application_job.rb": [
+        0,
+        0
+      ],
+      "/Users/Max/workspace/CraftAcademy/bootcamp/challengePlaydate/app/controllers/application_controller.rb": [
+        0,
+        0
+      ],
+      "/Users/Max/workspace/CraftAcademy/bootcamp/challengePlaydate/app/helpers/application_helper.rb": [
+        0,
+        0
+      ],
+      "/Users/Max/workspace/CraftAcademy/bootcamp/challengePlaydate/app/channels/application_cable/connection.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/Max/workspace/CraftAcademy/bootcamp/challengePlaydate/app/channels/application_cable/channel.rb": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "timestamp": 1563267796
+  }
+}
