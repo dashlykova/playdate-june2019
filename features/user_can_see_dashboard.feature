@@ -7,6 +7,5 @@ Background:
     Given I visit the site 
 
 Scenario:
-    Then I should see "Open PlayDates"
+    Then I should see "Open Playdates"
     And I should see "More information"
-        
