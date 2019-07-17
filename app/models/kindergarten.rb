@@ -1,5 +1,4 @@
 class Kindergarten < ApplicationRecord
-    validates :name, presence: true
-    validates :kommun, presence: true
-    validates :address, presence: true
+    validates_presence_of :name, :kommun, :address
+    has_and_belongs_to_many :users
 end
