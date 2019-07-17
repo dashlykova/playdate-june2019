@@ -11,4 +11,4 @@ Feature: User can create account (sign up)
         And I fill "Email" with "user@email.com"
         And I fill "Password" with "PassWord"
         And I click "Sign up"
-        Then I should see "You have successfully signed up."
+        Then I should see "Welcome! You have successfully signed up."
