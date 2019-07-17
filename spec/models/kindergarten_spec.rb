@@ -18,4 +18,8 @@ RSpec.describe Kindergarten, type: :model do
       expect(FactoryBot.create(:kindergarten)).to be_valid 
     end
   end
+
+  describe 'Associations' do
+    it { should have_and_belong_to_many(:users) }
+  end
 end
