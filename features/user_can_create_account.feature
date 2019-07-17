@@ -1,6 +1,6 @@
 Feature: User can create account (sign up)
     As a User,
-    In order to be able to see and make playdates in my area,
+    In order to have a Playdate user profile,
     I would like to be able to create an account.
 
     Background:
