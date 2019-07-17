@@ -4,7 +4,7 @@ Feature: User can create account (sign up)
     I would like to be able to create an account.
 
     Background:
-        Given I visit the landing page
+        Given I visit the dashboard
 
     Scenario: User can sign up
         When I click "Sign Up"

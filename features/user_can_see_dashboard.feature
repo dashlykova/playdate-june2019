@@ -4,7 +4,7 @@ In order to see the app feed
 I would like to have a Dashboard that displays playdates
 
 Background:
-    Given I visit the site 
+    Given I visit the dashboard
 
 Scenario:
     Then I should see "Open Playdates"
