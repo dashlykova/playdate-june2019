@@ -1,7 +1,7 @@
 Feature: User can view the list of kindergartens and link them to the account
-  As a User,
+  "As a User,
   In order to be able link kindergartens to my account,
-  I would like to see a list of kindergartens and be able to add the ones I am interested in.
+  I would like to see a list of kindergartens and be able to add the ones I am interested in."
 
   Background:
     Given the following kindergartens exist
