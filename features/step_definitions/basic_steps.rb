@@ -7,5 +7,5 @@ When("I fill {string} with {string}") do |field, content|
 end
 
 When("I click {string}") do |name|
-  click_link_or_button(name)
+  click_link_or_button name
 end
