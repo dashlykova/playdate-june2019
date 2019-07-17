@@ -5,7 +5,7 @@ Feature: User can view the list of kindergartens and link them to the account
 
   Background:
     Given the following kindergartens exist
-      | name                      | comune    | address              |
+      | name                      | kommun    | address              |
       | Skogsängsgårdens Förskola | Salem     | Säbytorgsvägen 3     |
       | Flower Power Förskola     | Stockholm | Ture Nermans Gränd 6 |
     And I visit the dashboard
@@ -22,7 +22,7 @@ Feature: User can view the list of kindergartens and link them to the account
     And I should see "Kindergartens"
     And I should see "name"
     And I should see "Skogsängsgårdens Förskola" 
-    And I should see "comune"
+    And I should see "kommun"
     And I should see "Salem"
     And I should see "address"
     And I should see "Säbytorgsvägen 3"
