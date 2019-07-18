@@ -13,18 +13,6 @@
   .column_3
     %p Account Information 
     %p Kindergartens 
-    %table
-      %tr 
-        %th name
-        %th kommun
-        %th address
-      - @kindergartens.each do |kindergarten|
-        %tr
-          %td
-            = kindergarten.name
-          %td
-            = kindergarten.kommun
-          %td
-            = kindergarten.address
+    = render "kindergartens/kindergartens_list"
 
 

@@ -1,0 +1,13 @@
+%table
+  %tr 
+    %th name
+    %th kommun
+    %th address
+  - @kindergartens.each do |kindergarten|
+    %tr
+      %td
+        = kindergarten.name
+      %td
+        = kindergarten.kommun
+      %td
+        = kindergarten.address
