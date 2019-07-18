@@ -8,6 +8,11 @@ Given("the following kindergartens exist") do |table|
   end  
 end
 
+Given("I am logged in as {string}") do |email|
+  user = FactoryBot.create(:user, email: email)
+  login_as user, scope: :user
+end
+
 When("I fill {string} with {string}") do |field, content|
   fill_in field, with: content
 end

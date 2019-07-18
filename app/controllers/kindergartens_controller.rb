@@ -3,13 +3,13 @@ class KindergartensController < ApplicationController
     @kindergartens = Kindergarten.all
   end  
 
-  def create
-    @kindergarten = Kindergarten.new(kindergarten_params)
-  end
+  #def create
+  #  @kindergarten = Kindergarten.new(kindergarten_params)
+  #end
 
-  private
+  #private
 
-  def kindergarten_params
-    params.require(:kindergarten).permit(:name, :kommun, :address)
-  end
+  #def kindergarten_params
+  #  params.require(:kindergarten).permit(:name, :kommun, :address)
+  #end
 end
