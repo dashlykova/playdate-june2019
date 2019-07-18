@@ -4,7 +4,7 @@ end
 
 Given("the following kindergartens exist") do |table|
   table.hashes.each do |kindergarten|
-    FactoryBot.create :kindergarten
+    Kindergarten.create!(kindergarten)
   end  
 end
 
