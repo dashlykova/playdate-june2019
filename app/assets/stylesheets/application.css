@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .container {
     display: flex;
     background: pink;
@@ -16,7 +20,7 @@
 
 .column_1 {
     border: solid black 1px;
-    width: 33vw;
+    width: 33.3vw;
     margin: 0;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -25,7 +29,7 @@
 
 .column_2 {
     border: solid black 1px;
-    width: 33vw;
+    width: 33.4vw;
     margin: 0;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -34,7 +38,7 @@
 
 .column_3 {
   border: solid black 1px;
-  width: 33vw;
+  width: 33.3vw;
   margin: 0;
   text-align: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
