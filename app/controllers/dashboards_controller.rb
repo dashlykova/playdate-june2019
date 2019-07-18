@@ -1,4 +1,4 @@
-class PlaydatesController < ApplicationController
+class DashboardsController < ApplicationController
 
   def index
     @kindergartens = Kindergarten.all

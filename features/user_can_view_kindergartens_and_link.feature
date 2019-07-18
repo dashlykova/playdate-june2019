@@ -12,7 +12,6 @@ Feature: User can view the list of kindergartens and link them to the account
     And I visit the dashboard
 
   Scenario: User can view the list of kindergartens on the dashboards
-    When I visit the dashboard
     Then I should see "Account Information"
     And I should see "Kindergartens"
     And I should see "name"
@@ -21,6 +20,11 @@ Feature: User can view the list of kindergartens and link them to the account
     And I should see "Skogsängsgårdens Förskola"
     And I should see "Salem"
     And I should see "Säbytorgsvägen 3"
-    And I click "Add kindergarten to profile"
-    And I should see "You are linked with the Kindergarten now"
+
+
+  Scenario: User can link a kindergarten to his/hers profile
+    Given I click "Add kindergarten to profile" for "Skogsängsgårdens Förskola"
+    Then I should see "You are linked with the Kindergarten now"
+    And "Skogsängsgårdens Förskola" should be associated with "user@email.com"
+
 

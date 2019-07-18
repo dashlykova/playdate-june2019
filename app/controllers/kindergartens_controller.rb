@@ -1,15 +1,10 @@
 class KindergartensController < ApplicationController
-  def index 
-    @kindergartens = Kindergarten.all
-  end  
+  
+  def update
+    kindergarten = Kindergarten.find(params[:id])
+    kindergarten.users.push(current_user)
+    flash[:notice] = "You are linked with the Kindergarten now"
+    redirect_back(fallback_location: root_path)
+  end
 
-  #def create
-  #  @kindergarten = Kindergarten.new(kindergarten_params)
-  #end
-
-  #private
-
-  #def kindergarten_params
-  #  params.require(:kindergarten).permit(:name, :kommun, :address)
-  #end
 end
