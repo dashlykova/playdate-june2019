@@ -18,15 +18,14 @@ Feature: User can view the list of kindergartens and link them to the account
 
   Scenario: User can view the list of kindergartens
     When I visit the dashboard
-    Then I should see "Account Information" 
+    Then I should see "Account Information"
     And I should see "Kindergartens"
     And I should see "name"
-    And I should see "Skogsängsgårdens Förskola" 
     And I should see "kommun"
-    And I should see "Salem"
     And I should see "address"
+    And I should see "Skogsängsgårdens Förskola"
+    And I should see "Salem"
     And I should see "Säbytorgsvägen 3"
     And I click "Add"
     And I should see "You are linked with the Kindergarten now"
 
-     
