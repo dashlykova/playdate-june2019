@@ -13,8 +13,10 @@ Feature: User can create playdate
 
   Scenario: User creates a playdate
     When I click "Create Playdate"
-    And I fill "Full Name" with "first_name last_name"
-    And I fill "Playdate Date" with "July 1, 2019"
-    And I click "Submit"
+    And I fill "name" with "first_name last_name"
+    And I fill "email" with "dash@dash.com"
+    And I fill "date" with "July 1, 2019"
+    And I fill "letter" with "Please, help"
+    And I click "Save"
     Then I should see "Your Playdate has been created."
     And I should see "Open Playdates"

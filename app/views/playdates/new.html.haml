@@ -1,23 +1,16 @@
 = form_with model: @playdate, local: true do |form|
-  - if @playdate.errors.any?
-    #error_explanation
-      %h2 
-        = pluralize(@playdate.errors.count, "error")
-        prohibited this PlayDate from being saved:
-      %ul
-        - @playdate.errors.full_messages.each do |msg|
-          %li
-            = msg
+
+
 
   %p
     = form.label :name
     %br
     = form.text_field :name
   
-  -#%p
-  -#  = form.label :email 
-  -#  %br
-  -#  = form.text_area :email
+  %p
+    = form.label :email 
+    %br
+    = form.text_area :email
 
   %p
     = form.label :date
