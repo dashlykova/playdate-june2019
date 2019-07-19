@@ -4,4 +4,7 @@ class PlaydatesController < ApplicationController
     @kindergartens = Kindergarten.all
   end
 
+  def new
+  end
+
 end
