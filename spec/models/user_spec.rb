@@ -16,4 +16,10 @@ RSpec.describe User, type: :model do
       expect(FactoryBot.create(:user)).to be_valid 
     end
   end
+
+  describe 'Associations' do
+    it { should have_and_belong_to_many(:kindergartens) }
+  end
 end
+
+

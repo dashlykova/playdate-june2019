@@ -1,7 +1,7 @@
 Feature: User can create account (sign up)
-  As a User,
+  "As a User,
   In order to have a Playdate user profile,
-  I would like to be able to create an account.
+  I would like to be able to create an account."
 
   Background:
     Given I visit the dashboard
