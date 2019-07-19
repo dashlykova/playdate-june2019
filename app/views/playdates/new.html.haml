@@ -10,14 +10,24 @@
             = msg
 
   %p
-    = form.label :full_name
+    = form.label :name
     %br
-    = form.text_field :full_name
+    = form.text_field :name
   
+  -#%p
+  -#  = form.label :email 
+  -#  %br
+  -#  = form.text_area :email
+
   %p
-    = form.label :content 
+    = form.label :date
     %br
-    = form.text_area :content
+    = form.text_field :date
+
+  %p
+    = form.label :letter
+    %br
+    = form.text_area :letter
   
   %p
     = form.submit
