@@ -7,9 +7,9 @@ Feature: User can create playdate
     Given the following kindergartens exist
       | name                      | kommun    | address              |
       | Skogsängsgårdens Förskola | Salem     | Säbytorgsvägen 3     |
-      | Flower Power Förskola     | Stockholm | Ture Nermans Gränd 6 |
     And I am logged in as "user@email.com"
     And I visit the dashboard
+    And I click "Add kindergarten to profile" for "Skogsängsgårdens Förskola"
 
   Scenario: User creates a playdate
     When I click "Create Playdate"
