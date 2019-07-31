@@ -21,3 +21,6 @@ Feature: User can create playdate
     And I click "Create Playdate"
     Then I should see "Your Playdate has been created."
     And I should see "Open Playdates"
+    And I should see "first_name last_name"
+    And I should see "July 01, 2019"
+    And I should see "Please, help"

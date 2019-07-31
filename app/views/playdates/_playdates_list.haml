@@ -1,0 +1,14 @@
+%table
+  %tr 
+    %th name
+    %th date
+    %th letter
+  - @playdates.each do |playdate|
+    %tr{id: dom_id(playdate)}
+      %td
+        = playdate.name
+      %td
+        = playdate.date.strftime("%B %d, %Y")
+      %td
+        = playdate.letter
+      

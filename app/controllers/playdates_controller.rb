@@ -2,6 +2,7 @@ class PlaydatesController < ApplicationController
 
   def index
     @kindergartens = Kindergarten.all
+    @playdates = Playdate.all
   end
 
   def new
